@@ -1,0 +1,37 @@
+{
+  "name": "express-fileuploader-oss",
+  "version": "0.1.0",
+  "description": "OssStrategy for express-fileuploader. Use this strategy to upload files to aliyun OSS(Open Storage Service).",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroicyang/express-fileuploader-oss.git"
+  },
+  "keywords": [
+    "upload",
+    "express-upload",
+    "express-uploader",
+    "express-fileuploader",
+    "aliyun",
+    "oss"
+  ],
+  "author": "Heroic Yang <me@heroicyang.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heroicyang/express-fileuploader-oss/issues"
+  },
+  "homepage": "https://github.com/heroicyang/express-fileuploader-oss",
+  "dependencies": {
+    "express-fileuploader": "0.0.7",
+    "kloud": "^0.2.1"
+  },
+  "devDependencies": {
+    "connect-multiparty": "^1.2.1",
+    "express": "^4.8.5",
+    "supertest": "^0.13.0",
+    "tape": "^2.14.0"
+  }
+}
